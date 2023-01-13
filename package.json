@@ -8,8 +8,8 @@
   ],
   "scripts": {
     "tsc": "lerna run tsc",
-    "prelpublish": "lerna version patch -y",
-    "lpublish": "lerna run tsc && lerna publish from-package --no-private -y"
+    "prelpublish": "lerna run tsc",
+    "lpublish": "lerna version patch -y && lerna publish from-package --no-private -y"
   },
   "devDependencies": {
     "lerna": "^6.4.0",
